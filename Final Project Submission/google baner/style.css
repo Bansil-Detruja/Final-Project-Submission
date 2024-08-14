@@ -1,0 +1,168 @@
+body {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  .homepage {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homepage .header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .header li {
+    margin: 0 1rem;
+  }
+  
+  .header li a.gmail-link,
+  .header li a.images-link {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: #111;
+    font-weight: 400;
+  }
+  
+  
+  .header li.menu-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header li.menu-icon img {
+    width: 40%;
+    height: 40%;
+    opacity: 0.9;
+  }
+  
+  .header li a.signin-button {
+    font-size: 1.3rem;
+    letter-spacing: 0.04em;
+    background-color: #4584ef;
+    box-shadow: 0px 0px 1px #1a73e8;
+    color: #fff;
+    padding: 0.4em 1em 0.6em 1em;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .homepage .body {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .body img.google-logo {
+    width: 300px;
+    margin: 1rem auto;
+  }
+  
+  .body .container {
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .container .search-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 3rem;
+    border: 1px solid #d6d6d6;
+  }
+  
+  
+  .search-container input {
+    width: 90%;
+    order: 2;
+    font-size: 1.6rem;
+    padding: 0 0.6em;
+    line-height: 2.8rem;
+  }
+  
+  .search-container img.search-icon {
+    order: 1;
+    cursor: default;
+    width: 1.4rem;
+    opacity: 0.8;
+  }
+  
+  .search-container img.mic-icon {
+    order: 3;
+    cursor: pointer;
+    width: 1.3rem;
+  }
+  
+  .container .buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .buttons a {
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: #626263;
+    border: 1px solid #f8f9fa;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1.1rem 1rem;
+    padding: 0.65em 1.4em 0.85em 1.4em;
+    border-radius: 1rem;
+  }
+  
+  
+  .container .languages {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container .languages li {
+    font-size: 1.3rem;
+    margin: 0 0.4em;
+  }
+  
+  .container .languages li a {
+    color: #1a0dab;
+    font-weight: 500;
+  }

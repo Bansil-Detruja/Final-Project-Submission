@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+margin:0 auto;
+    width:60%;
+    height:90vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+background-color: rgba(245, 245, 245, 0.971);
+    font-size: 25px;
+    width:45%;
+    height:auto;
+padding: 40px;
+font-family: sans-serif;
+border-radius: 8px;
+    border:1px solid rgb(7, 7, 7);
+}
+
+input{
+    font-size: 25px;
+border:1px solid rgb(192, 191, 191);
+    width:100%;
+    height:60px;
+    border-radius: 7px;
+
+}
+h1{
+
+    display: flex;
+    justify-content: center;
+}
+label{
+color:rgb(87, 86, 86);
+
+}
+
+.cheakbo{
+    width:70%;
+    margin-bottom: 25px;
+    justify-content: center;
+    display: flex;
+    font-size: 22px;
+}
+.cheakbox{
+width:23px;
+height:23px;
+background-color: gray;
+}
+button{
+    cursor: pointer;
+    font-size: 25px;
+    width:100%;
+    height:60px;
+    border-radius: 13px;
+    color:white;
+    border:none;
+    background-color:rgba(154, 4, 214, 0.85);
+}
+
+button:hover{
+    background-color:rgba(184, 4, 255, 0.788);
+color:black;
+border: 1px solid gray;
+}
